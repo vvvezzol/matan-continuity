@@ -203,6 +203,30 @@ export default function Home() {
         </Container>
       </Section>
 
+      <Section className="py-4 sm:py-6">
+        <Container>
+          <div className="grid gap-6 rounded-2xl border border-accent/20 bg-accent-soft/50 p-6 sm:grid-cols-[1fr_auto] sm:items-center sm:p-8">
+            <div className="max-w-2xl">
+              <Eyebrow>Тренажёр</Eyebrow>
+              <h2 className="mt-2 font-serif text-2xl font-semibold tracking-tight sm:text-3xl">
+                Проверьте себя за 12 вопросов
+              </h2>
+              <p className="mt-2 text-[15px] leading-relaxed text-ink-soft">
+                Типы разрывов, пределы и параметры — с объяснением после каждого ответа. Рекорд
+                сохраняется в браузере.
+              </p>
+            </div>
+            <Link
+              href="/game"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-paper transition-colors hover:bg-accent-ink"
+            >
+              Начать тренажёр
+              <span aria-hidden>→</span>
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
       <Section>
         <Container>
           <div className="max-w-2xl">

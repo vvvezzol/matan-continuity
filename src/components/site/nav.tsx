@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links = [
+const links: { href: string; label: string; short?: string }[] = [
   { href: "/", label: "Обзор" },
   { href: "/theory", label: "Теория" },
   { href: "/solutions", label: "Разборы" },
+  { href: "/game", label: "Тренажёр", short: "Игра" },
 ];
 
 export function SiteNav() {
@@ -36,7 +37,14 @@ export function SiteNav() {
                 : "text-ink-soft hover:bg-white/70 hover:text-ink"
             }`}
           >
-            {link.label}
+            {link.short ? (
+              <>
+                <span className="sm:hidden">{link.short}</span>
+                <span className="hidden sm:inline">{link.label}</span>
+              </>
+            ) : (
+              link.label
+            )}
           </Link>
         );
       })}
