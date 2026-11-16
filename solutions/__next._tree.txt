@@ -1,0 +1,5 @@
+:HL["/matan-continuity/_next/static/chunks/01zbf7ggy9xwt.css","style"]
+:HC["/",""]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"solutions","h":96,"c":"$Q2"}]]
+0:{"b":"l6b8EOIsMASMphsu0iA6H","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
