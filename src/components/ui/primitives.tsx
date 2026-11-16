@@ -41,8 +41,8 @@ export function Badge({
 }) {
   const styles =
     tone === "accent"
-      ? "bg-accent-soft text-accent-ink border-accent/20"
-      : "bg-white/70 text-ink-soft border-line";
+      ? "bg-accent-soft/80 text-accent-ink border-accent/25"
+      : "bg-paper/80 text-ink-soft border-line";
   return (
     <span
       className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${styles}`}
@@ -63,8 +63,8 @@ export function Callout({
 }) {
   const styles =
     tone === "answer"
-      ? "border-accent/25 bg-accent-soft/70 text-accent-ink"
-      : "border-warn-line bg-warn-soft text-warn-ink";
+      ? "border-accent/25 border-l-[3px] border-l-accent/60 bg-accent-soft/70 text-accent-ink"
+      : "border-warn-line border-l-[3px] border-l-warn-ink/35 bg-warn-soft text-warn-ink";
   return (
     <div className={`rounded-lg border px-4 py-3 ${styles}`}>
       <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.14em] opacity-75">{label}</p>
@@ -76,7 +76,7 @@ export function Callout({
 /** A boxed system of display formulas. Each string is raw LaTeX. */
 export function FormulaBlock({ lines }: { lines: string[] }) {
   return (
-    <div className="my-2 overflow-x-auto rounded-md border border-line bg-white/60 px-3 py-2.5 text-ink-soft sm:px-4">
+    <div className="my-2 overflow-x-auto rounded-lg border border-line/80 bg-white/55 px-3 py-2.5 text-ink-soft sm:px-4">
       <div className="min-w-max space-y-1.5 text-[15px] sm:text-base">
         {lines.map((line, index) => (
           <Tex key={`${line}-${index}`} tex={line} display />

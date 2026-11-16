@@ -1,17 +1,13 @@
 import Link from "next/link";
 
-const links = [
-  { href: "/", label: "Обзор" },
-  { href: "/theory", label: "Теория" },
-  { href: "/solutions", label: "Разборы" },
-];
+import { SiteNav } from "./nav";
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:gap-4 sm:px-8 sm:py-3.5">
         <Link href="/" className="group flex min-w-0 items-center gap-2.5 sm:gap-3">
-          <span className="grid h-8 w-8 shrink-0 place-items-center rounded-md bg-accent font-mono text-[11px] font-semibold text-paper sm:h-9 sm:w-9 sm:text-xs">
+          <span className="grid h-8 w-8 shrink-0 place-items-center rounded-md bg-accent font-mono text-[11px] font-semibold text-paper shadow-[0_1px_0_rgba(23,20,15,0.08)] transition-colors group-hover:bg-accent-ink sm:h-9 sm:w-9 sm:text-xs">
             lim
           </span>
           <span className="min-w-0 leading-tight">
@@ -24,19 +20,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav aria-label="Основная навигация" className="flex shrink-0 items-center gap-0.5 sm:gap-2">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`rounded-md px-2 py-1.5 text-[13px] text-ink-soft transition-colors hover:bg-white/70 hover:text-ink sm:px-3 sm:py-2 sm:text-sm ${
-                link.href === "/" ? "hidden sm:block" : ""
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+        <SiteNav />
       </div>
     </header>
   );

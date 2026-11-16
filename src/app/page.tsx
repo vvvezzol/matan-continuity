@@ -37,7 +37,7 @@ const limits = [
 export default function Home() {
   return (
     <>
-      <section className="border-b border-line bg-surface/50">
+      <section className="paper-grid border-b border-line bg-surface/40">
         <Container className="grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14 lg:py-20">
           <div>
             <div className="flex flex-wrap items-center gap-2">
@@ -71,7 +71,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <dl className="mt-9 grid max-w-lg grid-cols-3 gap-4 border-t border-line pt-6">
+            <dl className="mt-9 grid max-w-lg grid-cols-3 gap-4 border-t border-line pt-6 sm:[&>div+div]:border-l sm:[&>div+div]:border-line/70 sm:[&>div+div]:pl-4">
               {[
                 { value: String(tasks.length), label: "задач с разбором" },
                 { value: String(theory.length), label: "разделов теории" },
@@ -116,10 +116,10 @@ export default function Home() {
               </p>
             </div>
 
-            <ol className="space-y-5">
+            <ol className="relative space-y-6 before:absolute before:top-2 before:bottom-2 before:left-[1.125rem] before:w-px before:bg-line">
               {steps.map((step) => (
                 <li key={step.n} className="grid grid-cols-[2.25rem_1fr] gap-x-4">
-                  <span className="grid h-9 w-9 place-items-center rounded-full border border-line bg-surface font-mono text-xs text-ink-soft">
+                  <span className="relative grid h-9 w-9 place-items-center rounded-full border border-accent/20 bg-accent-soft font-mono text-xs text-accent-ink">
                     {step.n}
                   </span>
                   <div>
@@ -152,10 +152,10 @@ export default function Home() {
             {tasks.map((task) => (
               <article
                 key={task.n}
-                className="group relative flex flex-col rounded-xl border border-line bg-surface p-5 transition-colors hover:border-line-strong"
+                className="group relative flex flex-col rounded-xl border border-line bg-surface p-5 transition duration-200 hover:-translate-y-0.5 hover:border-line-strong hover:shadow-[0_2px_0_rgba(23,20,15,0.03),0_16px_30px_-24px_rgba(23,20,15,0.4)]"
               >
                 <div className="flex items-start justify-between gap-4">
-                  <span className="font-mono text-xs tracking-[0.2em] text-ink-faint">
+                  <span className="grid h-8 w-8 place-items-center rounded-md border border-line bg-paper/80 font-mono text-[11px] text-ink-soft">
                     {String(task.n).padStart(2, "0")}
                   </span>
                   <Badge tone={task.level === "средний" ? "accent" : "neutral"}>
@@ -163,7 +163,7 @@ export default function Home() {
                   </Badge>
                 </div>
 
-                <h3 className="mt-3 font-serif text-xl font-semibold tracking-tight text-ink">
+                <h3 className="mt-4 font-serif text-xl font-semibold tracking-tight text-ink">
                   <Link
                     href={`/solutions#${task.slug}`}
                     className="after:absolute after:inset-0 after:rounded-xl after:content-[''] focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-offset-2 focus-visible:after:outline-accent"
@@ -172,11 +172,11 @@ export default function Home() {
                   </Link>
                 </h3>
 
-                <p className="mt-1 text-[11px] font-medium uppercase tracking-[0.12em] text-accent">
+                <p className="mt-1.5 text-[11px] font-medium uppercase tracking-[0.12em] text-accent">
                   {task.topic}
                 </p>
 
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-soft">
+                <p className="mt-2.5 flex-1 text-sm leading-relaxed text-ink-soft">
                   <RichMath text={task.short} />
                 </p>
 
@@ -187,8 +187,14 @@ export default function Home() {
                   >
                     Теория к задаче
                   </Link>
-                  <span className="text-xs font-semibold text-accent opacity-70 transition-opacity group-hover:opacity-100">
-                    Решение →
+                  <span className="text-xs font-semibold text-accent">
+                    Решение
+                    <span
+                      aria-hidden
+                      className="ml-0.5 inline-block transition-transform duration-200 group-hover:translate-x-0.5"
+                    >
+                      →
+                    </span>
                   </span>
                 </div>
               </article>

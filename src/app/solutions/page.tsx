@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 };
 
 const legend = [
-  { label: "Условие", className: "border-line bg-paper" },
-  { label: "Ответ", className: "border-accent/25 bg-accent-soft" },
-  { label: "Примечание", className: "border-warn-line bg-warn-soft" },
+  { label: "Условие", className: "border-line-strong bg-line/60" },
+  { label: "Ответ", className: "border-accent/50 bg-accent/20" },
+  { label: "Примечание", className: "border-warn-line bg-warn-line/60" },
 ];
 
 export default function SolutionsPage() {
@@ -36,7 +36,7 @@ export default function SolutionsPage() {
         <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2">
           {legend.map((item) => (
             <span key={item.label} className="inline-flex items-center gap-2 text-xs text-ink-faint">
-              <span className={`h-3 w-3 rounded-sm border ${item.className}`} aria-hidden />
+              <span className={`h-3.5 w-3.5 rounded-[3px] border ${item.className}`} aria-hidden />
               {item.label}
             </span>
           ))}
@@ -62,7 +62,7 @@ export default function SolutionsPage() {
           <a
             key={task.n}
             href={`#${task.slug}`}
-            className="shrink-0 rounded-full border border-line bg-surface px-3 py-1.5 text-xs whitespace-nowrap text-ink-soft"
+            className="shrink-0 rounded-full border border-line bg-surface px-3 py-1.5 text-xs whitespace-nowrap text-ink-soft transition-colors hover:border-line-strong"
           >
             <span className="mr-1.5 font-mono text-[10px] text-ink-faint">
               {String(task.n).padStart(2, "0")}

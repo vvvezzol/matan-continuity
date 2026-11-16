@@ -51,7 +51,7 @@ function Line({ text }: { text: string }) {
       blocks.push(
         <div
           key={blocks.length}
-          className="my-2 overflow-x-auto rounded-md border border-line bg-white/60 px-3 py-2 text-ink-soft sm:px-4"
+          className="my-2 overflow-x-auto rounded-lg border border-line/80 bg-white/55 px-3 py-2 text-ink-soft sm:px-4"
         >
           <Tex tex={token.value} display />
         </div>,
@@ -96,7 +96,7 @@ export function List({ items }: { items: string[] }) {
     <ul className="space-y-1.5 text-[15px] leading-relaxed text-ink-soft">
       {items.map((item, index) => (
         <li key={index} className="flex gap-2.5">
-          <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent/60" />
+          <span aria-hidden className="mt-[0.5rem] h-1.5 w-1.5 shrink-0 rounded-full bg-accent/45" />
           <span>
             <RichMath text={item} />
           </span>

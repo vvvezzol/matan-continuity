@@ -49,7 +49,10 @@ export default function TheoryPage() {
         </p>
       </header>
 
-      <nav aria-label="Разделы теории" className="mt-8 flex gap-2 overflow-x-auto pb-2 lg:hidden">
+      <nav
+        aria-label="Разделы теории"
+        className="mt-8 flex gap-2 overflow-x-auto pb-2 [scrollbar-width:none] lg:hidden [&::-webkit-scrollbar]:hidden"
+      >
         {theory.map((section, index) => (
           <a
             key={section.id}
@@ -94,12 +97,16 @@ export default function TheoryPage() {
           </div>
         </aside>
 
-        <div className="min-w-0 space-y-12">
+        <div className="min-w-0 space-y-10">
           {theory.map((section, index) => {
             const related = tasks.filter((task) => task.theory === section.id);
 
             return (
-              <section key={section.id} id={section.id} className="scroll-mt-24">
+              <section
+                key={section.id}
+                id={section.id}
+                className={`scroll-mt-24 ${index > 0 ? "border-t border-line/70 pt-10" : ""}`}
+              >
                 <div className="flex items-baseline gap-3">
                   <span className="font-mono text-xs text-ink-faint">
                     {String(index + 1).padStart(2, "0")}
