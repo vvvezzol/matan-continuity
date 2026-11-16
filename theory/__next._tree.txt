@@ -1,5 +1,5 @@
-:HL["/matan-continuity/_next/static/chunks/01zbf7ggy9xwt.css","style"]
+:HL["/matan-continuity/_next/static/chunks/0lmy_4jyvbal-.css","style"]
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"theory","h":96,"c":"$Q2"}]]
-0:{"b":"l6b8EOIsMASMphsu0iA6H","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"uBdK3C-M8s1qZ6LONMr-i","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
