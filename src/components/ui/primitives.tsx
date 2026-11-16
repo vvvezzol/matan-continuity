@@ -67,7 +67,7 @@ export function Callout({
       : "border-warn-line border-l-[3px] border-l-warn-ink/35 bg-warn-soft text-warn-ink";
   return (
     <div className={`rounded-lg border px-4 py-3 ${styles}`}>
-      <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.14em] opacity-75">{label}</p>
+      <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.14em]">{label}</p>
       <div className="text-[15px] leading-relaxed">{children}</div>
     </div>
   );

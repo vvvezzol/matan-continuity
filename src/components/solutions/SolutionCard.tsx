@@ -68,7 +68,7 @@ export function SolutionCard({
               <span className="mt-0.5 grid h-6 w-6 place-items-center rounded-full border border-accent/15 bg-accent-soft/60 font-mono text-[11px] text-accent-ink">
                 {index + 1}
               </span>
-              <h4 className="text-sm leading-6 font-semibold text-ink">{step.title}</h4>
+              <h3 className="text-sm leading-6 font-semibold text-ink">{step.title}</h3>
               <div className="col-start-2 min-w-0">
                 <RichText text={step.body} />
               </div>

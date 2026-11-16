@@ -36,7 +36,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="ru" className="h-full">
+    <html lang="ru" className="h-full" data-scroll-behavior="smooth">
       <body className="flex min-h-full flex-col bg-paper text-ink antialiased">
         <a
           href="#content"

@@ -108,12 +108,6 @@ export default function SolutionsPage() {
               >
                 <div className="flex flex-wrap items-start justify-between gap-4">
                   <div className="flex min-w-0 gap-4">
-                    <span
-                      aria-hidden
-                      className="mt-0.5 hidden font-serif text-3xl leading-none font-semibold text-line-strong select-none sm:block"
-                    >
-                      {String(task.n).padStart(2, "0")}
-                    </span>
                     <div className="min-w-0">
                       <div className="flex flex-wrap items-center gap-2">
                         <Eyebrow>Задача {task.n}</Eyebrow>
