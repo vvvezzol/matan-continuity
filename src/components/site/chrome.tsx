@@ -33,10 +33,8 @@ export function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-line">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-10 text-sm text-ink-faint sm:flex-row sm:items-center sm:justify-between sm:px-8">
-        <p>Математический анализ · первый семестр · непрерывность функций.</p>
-        <p className="font-mono text-xs">
-          задачи и решения — в <span className="text-ink-soft">src/content/tasks.ts</span>
-        </p>
+        <p>Математический анализ · первый семестр · теория и разборы задач.</p>
+        <p className="text-xs">Непрерывность функций · 12 задач · 8 разделов</p>
       </div>
     </footer>
   );

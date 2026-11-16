@@ -26,11 +26,11 @@ export default function SolutionsPage() {
       <header className="max-w-3xl print:hidden">
         <Eyebrow>Разборы</Eyebrow>
         <h1 className="mt-2 font-serif text-4xl leading-tight font-semibold tracking-tight sm:text-5xl">
-          Двенадцать задач с полным решением
+          Двенадцать задач с пошаговым решением
         </h1>
         <p className="mt-4 text-[17px] leading-relaxed text-ink-soft">
-          Каждая задача разобрана по шагам: что проверяем, какой предел считаем, почему получается
-          именно такой тип разрыва. Ответ и примечание выделены отдельно.
+          В каждом разборе — условие, ход решения и ответ. Показано, какой предел считаем и почему
+          получается такой тип разрыва.
         </p>
 
         <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2">
@@ -52,7 +52,7 @@ export default function SolutionsPage() {
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <PrintButton />
           <p className="text-xs leading-relaxed text-ink-faint">
-            При печати все свёрнутые разборы раскрываются автоматически.
+            Перед печатью все свёрнутые разборы раскроются автоматически.
           </p>
         </div>
       </header>
