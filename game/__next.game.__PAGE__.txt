@@ -1,0 +1,45 @@
+1:"$Sreact.fragment"
+2:"/matan-continuity/_next/static/chunks/148yr6sktbr7b.js"
+3:I[22016,["$2"],""]
+4:I[81331,["$2"],"SiteNav"]
+5:I[23219,["$2"],"SiteClock"]
+6:I[39756,["$2"],"default"]
+7:I[37457,["$2"],"default"]
+13:"ViewportBoundary"
+14:I[97367,["$2"],"$13"]
+15:"MetadataBoundary"
+16:I[97367,["$2"],"$15"]
+17:"$Sreact.suspense"
+:HL["/matan-continuity/_next/static/chunks/2ymtnjl8ivl7l.css","style"]
+9:X
+c:X
+c:C
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto w-full max-w-6xl px-5 sm:px-8 py-10 sm:py-14","children":[["$","header",null,{"className":"max-w-3xl","children":[["$","p",null,{"className":"text-[11px] font-semibold uppercase tracking-[0.18em] text-accent","children":"Тренажёр"}],["$","h1",null,{"className":"mt-2 font-serif text-4xl leading-tight font-semibold tracking-tight sm:text-5xl","children":"Двенадцать вопросов по непрерывности"}],["$","p",null,{"className":"mt-4 text-[17px] leading-relaxed text-ink-soft","children":"Проверьте, различаете ли вы устранимый разрыв, скачок и второй род. После каждого ответа будет объяснение — можно сразу понять, где ошибка."}]]}],"$Le","$Lf"]}],["$L10"],"$L11"]}],"p":"$@12","v":null,"s":"$9"}}]]
+a:[["children",{"s":"game","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@b","v":"$c","s":"$9"},"c":"$Qd"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/matan-continuity/_next/static/chunks/2ymtnjl8ivl7l.css","precedence":"next"}],["$","script","script-0",{"src":"/matan-continuity/_next/static/chunks/148yr6sktbr7b.js","async":true}]],["$","html",null,{"lang":"ru","className":"h-full","data-scroll-behavior":"smooth","children":["$","body",null,{"className":"flex min-h-full flex-col bg-paper text-ink antialiased","children":[["$","a",null,{"href":"#content","className":"sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:text-paper","children":"К содержанию"}],["$","header",null,{"className":"sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur","children":[["$","div",null,{"className":"mx-auto flex w-full max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:gap-4 sm:px-8 sm:py-3.5","children":[["$","$L3",null,{"href":"/","className":"group flex min-w-0 items-center gap-2.5 sm:gap-3","children":[["$","span",null,{"className":"grid h-8 w-8 shrink-0 place-items-center rounded-md bg-accent font-mono text-[11px] font-semibold text-paper shadow-[0_1px_0_rgba(23,20,15,0.08)] transition-colors group-hover:bg-accent-ink sm:h-9 sm:w-9 sm:text-xs","children":"lim"}],["$","span",null,{"className":"min-w-0 leading-tight","children":[["$","span",null,{"className":"block truncate font-serif text-sm font-semibold tracking-tight sm:text-[15px]","children":"Непрерывность"}],["$","span",null,{"className":"hidden text-[11px] uppercase tracking-[0.14em] text-ink-faint sm:block","children":"матанализ · 1 семестр"}]]}]]}],["$","$L4",null,{}]]}],["$","$L5",null,{}]]}],["$","main",null,{"id":"content","className":"flex-1","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"mt-24 border-t border-line","children":["$","div",null,{"className":"mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-10 text-sm text-ink-faint sm:flex-row sm:items-center sm:justify-between sm:px-8","children":[["$","p",null,{"children":"Математический анализ · первый семестр · теория и разборы задач."}],["$","p",null,{"className":"text-xs","children":"Непрерывность функций · 12 задач · 8 разделов"}]]}]}]]}]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#f6f4ee"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Тренажёр — Непрерывность"}],["$","meta","1",{"name":"description","content":"Двенадцать вопросов по непрерывности: типы разрывов, пределы, параметры в кусочных функциях и теоремы о существовании корня. С объяснением после каждого ответа."}],["$","meta","2",{"name":"keywords","content":"математический анализ,непрерывность функции,точки разрыва,предел функции,первый семестр,устранимый разрыв,скачок"}],"$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20"]}]}],null]}],null]}],"p":"$@21","v":null,"s":"$9"}},"a":"$@22","u":"$@23","b":"wuC_JsHa99dNzbsKUVTsc"}
+24:"/matan-continuity/_next/static/chunks/0nvj9z6rr31e1.js"
+25:I[67827,["$2","$24"],"QuizGame"]
+26:I[97367,["$2"],"OutletBoundary"]
+28:I[27201,["$2"],"IconMark"]
+e:["$","div",null,{"className":"mt-8 max-w-4xl","children":["$","$L25",null,{}]}]
+f:["$","p",null,{"className":"mt-6 max-w-3xl text-xs leading-relaxed text-ink-faint","children":"Вопросы составлены по задачам сайта. Баллы и рекорд хранятся только в вашем браузере."}]
+10:["$","script","script-0",{"src":"/matan-continuity/_next/static/chunks/0nvj9z6rr31e1.js","async":true}]
+11:["$","$L26",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+18:["$","meta","3",{"property":"og:title","content":"Непрерывность функции — теория и разборы задач"}]
+19:["$","meta","4",{"property":"og:description","content":"Восемь разделов теории и двенадцать разборов: от классификации разрывов до теоремы Больцано–Коши."}]
+1a:["$","meta","5",{"property":"og:locale","content":"ru_RU"}]
+1b:["$","meta","6",{"property":"og:type","content":"website"}]
+1c:["$","meta","7",{"name":"twitter:card","content":"summary"}]
+1d:["$","meta","8",{"name":"twitter:title","content":"Непрерывность функции — теория и разборы задач"}]
+1e:["$","meta","9",{"name":"twitter:description","content":"Восемь разделов теории и двенадцать разборов: от классификации разрывов до теоремы Больцано–Коши."}]
+1f:["$","link","10",{"rel":"icon","href":"/matan-continuity/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
+20:["$","$L28","11",{}]
+9:300
+27:null
+23:true
+9:C
+22:0
+b:"$undefined"
+8:"$undefined"
+21:"$undefined"
+12:"$undefined"
