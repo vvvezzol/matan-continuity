@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { SiteClock } from "./clock";
 import { SiteNav } from "./nav";
 
 export function SiteHeader() {
@@ -22,6 +23,8 @@ export function SiteHeader() {
 
         <SiteNav />
       </div>
+
+      <SiteClock />
     </header>
   );
 }
